@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headline: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-surface-variant: #353534;
+  --color-on-background: #e5e2e1;
+  --color-surface-dim: #131313;
+  --color-on-error: #690005;
+  --color-primary-fixed: #7ff8cf;
+  --color-tertiary-fixed-dim: #ffb4aa;
+  --color-primary: #61dbb4;
+  --color-secondary-fixed: #e3e2e4;
+  --color-surface-tint: #61dbb4;
+  --color-on-primary: #00382a;
+  --color-inverse-surface: #e5e2e1;
+  --color-surface-bright: #3a3939;
+  --color-error-container: #93000a;
+  --color-outline: #86948d;
+  --color-on-tertiary-fixed: #410001;
+  --color-on-secondary-fixed-variant: #464749;
+  --color-inverse-on-surface: #313030;
+  --color-on-surface: #e5e2e1;
+  --color-error: #ffb4ab;
+  --color-on-primary-container: #003024;
+  --color-secondary-fixed-dim: #c7c6c8;
+  --color-on-tertiary: #5f140f;
+  --color-on-error-container: #ffdad6;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-on-surface-variant: #bccac2;
+  --color-surface-container-high: #2a2a2a;
+  --color-primary-fixed-dim: #61dbb4;
+  --color-primary-container: #12a480;
+  --color-secondary-container: #464749;
+  --color-on-secondary: #2f3032;
+  --color-on-secondary-fixed: #1b1c1e;
+  --color-surface-container-highest: #353534;
+  --color-inverse-primary: #006c52;
+  --color-tertiary-fixed: #ffdad5;
+  --color-on-primary-fixed-variant: #00513d;
+  --color-on-secondary-container: #b5b5b7;
+  --color-background: #131313;
+  --color-tertiary-container: #dc7265;
+  --color-secondary: #c7c6c8;
+  --color-on-primary-fixed: #002117;
+  --color-on-tertiary-container: #560d09;
+  --color-tertiary: #ffb4aa;
+  --color-outline-variant: #3d4a44;
+  --color-surface: #131313;
+  --color-surface-container: #201f1f;
+  --color-on-tertiary-fixed-variant: #7e2b22;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
